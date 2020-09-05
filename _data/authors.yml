@@ -1,0 +1,12 @@
+zinoK :
+  username: Jinho    # user name : martin
+  name: Jinho Kim      # user full name : Martin Luther King
+  url_full:             # Homepage url
+  url:
+  #bio: <a href="https://www.youtube.com/channel/UCp-MztINXTRVkRGCnqnYNlQ">돈오리TV, 쉽게배우는 IT(Programming,Machine Learning,금융)</a>
+  bio: SW Developer
+  # 회사정보
+  picture: assets/built/images/choonbae1.jpg   # author image
+  facebook:             # facebook ID
+  twitter:              # twitter ID
+  cover: False

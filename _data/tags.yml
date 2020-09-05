@@ -1,0 +1,17 @@
+#글의 범주를 정해줌.
+#Embedded :
+ # name: Embdded SW Development
+  # 굳이 필요없어서 false
+ # description: False
+  # 배경화면 정도.
+  #cover:
+  #assets/built/images/rocket-raccoon-guardians-of-the-galaxy.jpg
+Python :
+  name: python
+  description: False
+  #cover: assets/built/images/rocket-raccoon-guardians-of-the-galaxy.jpg
+
+Algorithm :
+  name: algorithm
+  description: False
+  #cover: assets/built/images/rocket-raccoon-guardians-of-the-galaxy.jpg
