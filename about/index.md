@@ -9,3 +9,5 @@ subclass: 'post page'
 ---
 
 About!! Introduction!
+
+Automation of build and publishment
