@@ -10,7 +10,7 @@ install:
 
 before_script:
   - git config --global user.email "kkp403@gmail.com"
-  - git config --global user.name "Jinho Kim"
+  - git config --global user.name "zinbbaei"
 
 script: bundle exec rake site:deploy --quiet #--trace
 
@@ -21,7 +21,11 @@ script: bundle exec rake site:deploy --quiet #--trace
 # travis encrypt 'GIT_NAME="YOUR_USERNAME" GIT_EMAIL="YOUR_EMAIL" GH_TOKEN=YOUR_TOKEN'
 env:
   global:
-    secure: "Lq5yTMos+k4YRlrBr5ftHfb35OInXzee8otDEybWl1q5nu0lI4OYpDRrdeYSmkstg3WLjlQEyA13h3LVVxj/vk2vBnB9kWVTGP0Dq48iXmeKJgF9XfyWVFvcfUEfDU2+r2bhINwaTa47dwjGtWsK6DpeR2tnDqla6o+qdwpJaM6NvQBFFaDkAseut23hsyjYOTsBckfThU2H0jzId5LRo9AOgEhmK0ZH1EMzyUUinlu7aN9wwAsjTFY 3urDpqcygmzru1m4FtEY+us44ukmiYMuPVNybqdAIwGNQ+JrvwRQrNRRfTZ5sgeMZWj1y+0c7haQoSc+YujlRpuLiYHOzEXNcoFzU0hEXCIZJLSXm4pjzJ7W/E7sVJaCwjFeJG31Oihjn+DhuDg3QyBQcg6flTi+aRoG2HbFTXVheMzCBPPGZGeZi5gpdva2/P1kZOKBmyGnZ4kELlhznKLgOHPJdp2zylrTKM1vnN0Khvwf8pEOPNijZflKWG7bBGJ/cxNaHrYeZSAy3qpx7Xzil9Froze46x+0l4aVNUk14dl8Y9LtQBx2ftHqtiRDrCWqut+PIw8LryqBNdQNEwMm6Ofzxk5FV8R+ruSLCV+cHvoikdKcGHQCn+gNvyKYRxJJfTsKAEYtOxS20z0rb+lIYHUqFG+Pufxnpw72b2bqlwChNjvs="
+    secure: "puCh/2EuMHB90Fq8q+ftEvlNDn4yZ7Lw1fCbUiCDDO+jfYkqG9beCBixKAZn9OOBiLT4M98m0p/KWwgUaiW3sSsBfs+2JJUrp+w9NJyBsr98c04hnMc5h3p91Pc0W5hUelnpIggWf6a2W5WYLhqNCDEnaOfwypg4b8x/ycRQvpG2RiQD7ZTJZLBLu0Se7fdxO1+HAbKt4/6o83Fxx1892zSv5wbzJdHWr2AG5BmgWZ58e2BsTUuvnaOJCjLHDScrsN/aTWuIuSpZgP7voJD1bI4sYqr0CKw+oc5kbQ3y4O
+   AxBdFRLsrgTpUGaCpbuEYnF4Osuru0UCBxkNLgh3tcHBHVbmm+jPRx/5AA8OifgerEInkJ8GxGwvEVOQJ30+00y3z0kMsvVAC/VEMSWN0M0jSZYBvm3FbfEnKQmIjmEH4lA1aw47LtCil+dA6/cA0ISD2HcJ6flWoVAOPMAMR1ly/48udFwvR1MPAT+SYixweKV0pvSUghvpf2KTaARzNe77ZR14gzkvabSe1FQ8wXaf64Yn1Z+w5D0aRT+I1ifevprylyNhKgGQNfvHkIU5MEABPMSzwYdsPY3gmc23YPwtdjZOE438V
+   9d4rH817H/9HTfu2ZWE+Okpa+lh1/3AKPyLsV2Autz5tpuZrFN2RuReI46M9cNZEMaVQXMxJYn4Q="
+
+
 branches:
   only:
     - master
