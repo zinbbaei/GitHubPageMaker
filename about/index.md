@@ -8,6 +8,8 @@ class: page-template
 subclass: 'post page'
 ---
 
-About!! Introduction!
+Introduction
+---
+Jinho Kim
+SW Developer
 
-Automation of build and publishment!!

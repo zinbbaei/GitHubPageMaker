@@ -6,6 +6,10 @@
   # 배경화면 정도.
   #cover:
   #assets/built/images/rocket-raccoon-guardians-of-the-galaxy.jpg
+Embedded :
+  name : embdded
+  description: False
+
 Python :
   name: python
   description: False
